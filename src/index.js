@@ -4,7 +4,7 @@ import { Router, IndexRoute, Route, browserHistory } from 'react-router'
 
 import App from './App';
 import Home from './home';
-// import Book from './book';
+import Book from './book';
 // import Rooms from './rooms';
 import Gallery from './gallery';
 // import Garden from './garden';
@@ -23,6 +23,7 @@ ReactDOM.render(
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/contact" component={Contact} />
+      <Route path="/book" component={Book} />
       <Route path="/gallery">
         <IndexRoute component={Gallery} />
       </Route>

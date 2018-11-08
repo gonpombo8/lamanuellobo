@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Row = ({children}) => {
+const Row = ({ className = '', children }) => {
   return (
-    <div className="row">
+    <div className={`row ${className}`}>
       <div className="box">
         {children}
       </div>
